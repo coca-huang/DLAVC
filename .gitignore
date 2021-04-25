@@ -1,0 +1,15 @@
+### PyTorch template
+tmp/
+log/
+!log/log.conf
+
+### JetBrains template
+.idea/
+cmake-build-*/
+
+### VisualStudioCode template
+.vscode/
+.history/
+
+### macOS template
+.DS_Store

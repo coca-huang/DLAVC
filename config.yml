@@ -1,0 +1,20 @@
+environment:
+  identity: DLAVC
+  cuda: True
+  visdom_port: ~
+  log_config: log/log.conf
+train:
+  image_size: [ 256 , 256 ]
+  image_root: data
+  learning_rate: 0.01
+  weight_decay: 0.0001
+  num_epochs: 500
+  batch_size: 8
+  snapshots_folder: tmp/snapshots
+  load_pretrain_model: [ ~ , ~ ]
+test:
+  image_size: ~
+  image_root: data
+  result_folder: tmp/result
+  snapshots_folder: tmp/snapshots
+  load_pretrain_model: [ 495 , 495 ]
