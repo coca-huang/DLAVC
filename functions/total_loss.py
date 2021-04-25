@@ -4,9 +4,9 @@ import torch.nn as nn
 from functions.vgg19 import VGG19
 
 
-class ColorLoss(nn.Module):
+class TotalLoss(nn.Module):
     def __init__(self):
-        super(ColorLoss, self).__init__()
+        super(TotalLoss, self).__init__()
 
         self.adv_loss = AdversarialLoss()
         self.l1_loss = nn.L1Loss()

@@ -11,7 +11,7 @@ train:
   num_epochs: 500
   batch_size: 8
   snapshots_folder: tmp/snapshots
-  load_pretrain_model: [ ~ , ~ ]
+  load_pretrain_model: [ ~ , ~ , ~ , ~ ]
 test:
   image_size: ~
   image_root: data

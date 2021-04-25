@@ -6,6 +6,8 @@ DLAVC: Deep Line Art Video Colorization with a Few References
 
 [Paper](https://arxiv.org/abs/2003.10685)
 
+`train.py` and `test.py` are provided by Zengxi Zhang, if any questions, please e-mail <zengxizhang@mail.dlut.edu.cn>.
+
 ## Requirements
 
 * Python :: 3.8
