@@ -28,6 +28,6 @@ Clone this GitHub repository to your local.
 
 ## Contact
 
-Attention: train.py and test.py are provided by [Zengxi Zhang](mailto://zengxizhang@mail.dlut.edu.cn).
+Attention: train.py and test.py are provided by [Zengxi Zhang](mailto:zengxizhang@mail.dlut.edu.cn).
 
 As this project is an unofficial re-implementation of DLAVC, no Q&A service is provided.
